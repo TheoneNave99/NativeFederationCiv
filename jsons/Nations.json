@@ -3,7 +3,7 @@
 		"name": "Grand Federation",
 		"leaderName": "Hiawatha",
 		"adjective": ["Federation"],
-		"startBias": ["Forest"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Ramkhamhaeng",
 
