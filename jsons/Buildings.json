@@ -1,25 +1,72 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Tribal Council",
+		"replaces": "Aqueduct",
+		"uniqueTo": "Grand Federation",
+		"cost": 75,
+		"culture": 1,
+		"production": 1,
+		"hapiness": 1,
+		"uniques": ["[-33]% Culture cost of natural border growth [in this city]", "Gain a free [Worker] [in this city]", "[+2 Science] [in this city] <after discovering [Navigation]>","Destroyed when the city is captured"],
+		"requiredTech": "Agriculture"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "War Dance",
+		"replaces": "Walls",
+		"cost": 40,
+		"uniqueTo": "Grand Federation",
+		"culture": 1,
+		"hapiness": 1,
+		"requiredTech": "Agriculture",
+		"uniques": ["Destroyed when the city is captured", "[+10]% Production when constructing [Military] units [in this city]"]
+	},
+	{
+		"name": "Oral Tradition",
+		"replaces": "Library",
+		"uniqueTo": "Grand Federation",
+		"cost": 25,
+		"culture": 1,
+		"hapiness": 1,
+		"uniques": ["[+1 Science] per [5] population [in this city]", "[+1 Culture] per [5] population [in this city]"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Terrain Knowledge",
+		"replaces": "University",
+		"uniqueTo": "Grand Federation",
+		"maintenance": 0,
+		"culture": 1,
+		"hapiness": 1,
+		"uniques": ["[+l production, +1 food] from [Plains] tiles [in this city]", "[+l production, +1 food] from [Grassland] tiles [in this city]",
+			    "[+l production, +1 food] from [Forest] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Star Reader",
+		"replaces": "Observatory",
+		"uniqueTo": "Grand Federation",
+		"maintenance": 0,
+		"culture": 1,
+		"hapiness": 1,
+		"uniques": ["[+3 faith] from [Mountain] tiles [in this city]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Foreign Investment Program",
+		"replaces": "Bank",
+		"uniqueTo": "Grand Federation",
+		"gold": 3,
+		"uniques": ["[+1 Production, +1 Gold] from [Strategic resource] tiles [in this city]", "[+2 Gold] from [Luxury resource] tiles [in this city]",
+			    "[+3]% [Gold] [in all cities]"],
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Foreign Education Program",
+		"replaces": "Public School",
+		"uniqueTo": "Grand Federation",
+		"maintenance": 5,
+		"uniques": ["[+1 Science] from [Strategic resource] tiles [in this city]", "[+1 Science] from [Luxury resource] tiles [in this city]",
+			    "[+3]% [Science] [in all cities]"],
+		"requiredTech": "Banking"
+	},
 ]
