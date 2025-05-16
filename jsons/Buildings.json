@@ -37,8 +37,8 @@
 		"maintenance": 0,
 		"culture": 1,
 		"hapiness": 1,
-		"uniques": ["[+l production] from [Plains] tiles [in this city]", "[+1 food] from [Grassland] tiles [in this city]",
-			    "[+l production] from [Forest] tiles [in this city]"],
+		"uniques": ["[+l Production, +1 Food] from [Plains] tiles [in this city]", "[+1 Food] from [Grassland] tiles [in this city]",
+			    "[+l Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -48,7 +48,7 @@
 		"maintenance": 0,
 		"culture": 1,
 		"hapiness": 1,
-		"uniques": ["[+3 faith] from [Mountain] tiles [in this city]"],
+		"uniques": ["[+3 Faith] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Astronomy"
 	},
 	{
