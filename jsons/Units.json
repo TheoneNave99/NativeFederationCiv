@@ -10,7 +10,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability", "Ignores terrain cost"],
+		"promotions": ["[Mohawk Warrior] ability","Ignores terrain cost"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -24,7 +24,7 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability", "Ignores terrain cost", "Drill I"],
+		"promotions": ["[Mohawk Warrior] ability","Ignores terrain cost","Drill I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -38,7 +38,7 @@
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Rifling",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability", "Ignores terrain cost", "Drill I", "Shock I"],
+		"promotions": ["[Mohawk Warrior] ability","Ignores terrain cost","Drill I","Shock I"],
 		"attackSound": "metalhit"
 	},
 	{
