@@ -37,8 +37,8 @@
 		"maintenance": 0,
 		"culture": 1,
 		"hapiness": 1,
-		"uniques": ["[+l Production, +1 Food] from [Plains] tiles [in this city]", "[+1 Food] from [Grassland] tiles [in this city]",
-			    "[+l Production] from [Forest] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Plains] tiles [in this city]", "[+1 Food] from [Grassland] tiles [in this city]",
+			    "[+l Production] from [Plains] tiles [in this city]", "[+l Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
