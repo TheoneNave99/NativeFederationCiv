@@ -7,7 +7,7 @@
 		"culture": 1,
 		"production": 1,
 		"hapiness": 1,
-		"uniques": ["[-33]% Culture cost of natural border growth [in this city]", "Gain a free [Worker] [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[-33]% Culture cost of natural border growth [in this city]","Destroyed when the city is captured", "[+10]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Agriculture"
 	},
 	{
