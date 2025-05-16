@@ -37,8 +37,8 @@
 		"maintenance": 0,
 		"culture": 1,
 		"hapiness": 1,
-		"uniques": ["[+l production, +1 food] from [Plains] tiles [in this city]", "[+l production, +1 food] from [Grassland] tiles [in this city]",
-			    "[+l production, +1 food] from [Forest] tiles [in this city]"],
+		"uniques": ["[+l production] from [Plains] tiles [in this city]", "[+1 food] from [Grassland] tiles [in this city]",
+			    "[+l production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -56,7 +56,7 @@
 		"replaces": "Bank",
 		"uniqueTo": "Grand Federation",
 		"gold": 3,
-		"uniques": ["[+1 Production, +1 Gold] from [Strategic resource] tiles [in this city]", "[+2 Gold] from [Luxury resource] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Strategic resource] tiles [in this city]", "[+2 Gold] from [Luxury resource] tiles [in this city]",
 			    "[+3]% [Gold] [in all cities]"],
 		"requiredTech": "Banking"
 	},
@@ -65,7 +65,7 @@
 		"replaces": "Public School",
 		"uniqueTo": "Grand Federation",
 		"maintenance": 5,
-		"uniques": ["[+1 Science] from [Strategic resource] tiles [in this city]", "[+1 Science] from [Luxury resource] tiles [in this city]",
+		"uniques": ["[+2 Science] from [Strategic resource] tiles [in this city]", "[+1 Science] from [Luxury resource] tiles [in this city]",
 			    "[+3]% [Science] [in all cities]"],
 		"requiredTech": "Banking"
 	},
