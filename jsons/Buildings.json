@@ -37,7 +37,7 @@
 		"maintenance": 0,
 		"culture": 1,
 		"hapiness": 1,
-		"uniques": ["[+1 Production] per [5] population [in this city]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+1 Food] from [Forest] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -54,18 +54,19 @@
 		"name": "Foreign Investment Program",
 		"replaces": "Bank",
 		"uniqueTo": "Grand Federation",
+		"cost": 400,
 		"gold": 3,
-		"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]", "[+2 Gold] from [Luxury resource] tiles [in this city]",
-			    "[+2]% [Gold] [in all cities]"],
+		"uniques": ["[+1 Production] from [Strategic resource] tiles [in this city]", "[+1 Gold] from [Strategic resource] tiles [in this city]",
+			    "[+2 Gold] from [Luxury resource] tiles [in this city]", "[+2]% [Gold] [in all cities]"],
 		"requiredTech": "Banking"
 	},
 	{
 		"name": "Foreign Education Program",
 		"replaces": "Public School",
 		"uniqueTo": "Grand Federation",
+		"cost": 400,
 		"maintenance": 5,
-		"uniques": ["[+2 Science] from [Strategic resource] tiles [in this city]", "[+1 Science] from [Luxury resource] tiles [in this city]",
-			    "[+3]% [Science] [in all cities]"],
+		"uniques": [ "[+3 Science] from every [Great Improvement] [in this city]", "[+3]% [Science] [in all cities]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -74,11 +75,10 @@
 		"uniqueTo": "Grand Federation",
 		"cost": 450,
 		"science": 3,
-		"percentStatBonus": {"production": 10},
 		"percentStatBonus": {"gold": 10},
 		"requiredBuilding": "Workshop",
 		"maintenance": 1,
-		"hurryCostModifier": 0,
+		"uniques": ["[+1 Production] from [Strategic resource] tiles [in this city]", "[+1 Gold] from [Strategic resource] tiles [in this city]"]
 		"requiredTech": "Industrialization"
 	},
 ]
