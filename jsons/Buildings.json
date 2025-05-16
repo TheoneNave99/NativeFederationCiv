@@ -37,7 +37,7 @@
 		"maintenance": 0,
 		"culture": 1,
 		"hapiness": 1,
-		"uniques": ["[+1 Production] per [4] population [in this city]"],
+		"uniques": ["[+1 Production] per [5] population [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -56,7 +56,7 @@
 		"uniqueTo": "Grand Federation",
 		"gold": 3,
 		"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]", "[+2 Gold] from [Luxury resource] tiles [in this city]",
-			    "[+3]% [Gold] [in all cities]"],
+			    "[+2]% [Gold] [in all cities]"],
 		"requiredTech": "Banking"
 	},
 	{
@@ -67,5 +67,18 @@
 		"uniques": ["[+2 Science] from [Strategic resource] tiles [in this city]", "[+1 Science] from [Luxury resource] tiles [in this city]",
 			    "[+3]% [Science] [in all cities]"],
 		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Foreign Goods Factory",
+		"replaces": "Factory",
+		"uniqueTo": "Grand Federation",
+		"cost": 350,
+		"science": 2,
+		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"gold": 10},
+		"requiredBuilding": "Workshop",
+		"maintenance": 5,
+		"hurryCostModifier": 0,
+		"requiredTech": "Industrialization"
 	},
 ]
