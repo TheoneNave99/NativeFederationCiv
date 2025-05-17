@@ -66,7 +66,8 @@
 		"uniqueTo": "Grand Federation",
 		"cost": 400,
 		"maintenance": 5,
-		"uniques": [ "[+3 Science] from every [Great Improvement] [in this city]", "[+3]% [Science] [in all cities]"],
+		"uniques": [ "[+3 Science] from [Manufactory] tiles [in this city]", "[+3 Science] from [Customs House] tiles [in this city]",
+			     "[+3 Science] from [Landmark] tiles [in this city]", "[+3]% [Science] [in all cities]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -74,11 +75,13 @@
 		"replaces": "Factory",
 		"uniqueTo": "Grand Federation",
 		"cost": 450,
-		"science": 3,
+		"science": 2,
+		"production": 1,
+		"gold": 1,
 		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"production": 10},
 		"requiredBuilding": "Workshop",
-		"maintenance": 1,
 		"uniques": ["[+1 Production] from [Strategic resource] tiles [in this city]", "[+1 Gold] from [Strategic resource] tiles [in this city]"]
-		"requiredTech": "Industrialization"
+		"requiredTech": "Replaceable Parts"
 	},
 ]
