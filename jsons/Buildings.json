@@ -65,6 +65,7 @@
 		"replaces": "Public School",
 		"uniqueTo": "Grand Federation",
 		"cost": 400,
+		"science": 3,
 		"maintenance": 5,
 		"uniques": [ "[+3 Science] from [Manufactory] tiles [in this city]", "[+3 Science] from [Customs House] tiles [in this city]",
 			     "[+3 Science] from [Landmark] tiles [in this city]", "[+3]% [Science] [in all cities]"],
