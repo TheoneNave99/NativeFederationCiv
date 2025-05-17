@@ -58,7 +58,7 @@
 		"gold": 3,
 		"uniques": ["[+1 Production] from [Strategic resource] tiles [in this city]", "[+1 Gold] from [Strategic resource] tiles [in this city]",
 			    "[+2 Gold] from [Luxury resource] tiles [in this city]", "[+2]% [Gold] [in all cities]"],
-		"requiredTech": "Banking"
+		"requiredTech": "Economics"
 	},
 	{
 		"name": "Foreign Education Program",
