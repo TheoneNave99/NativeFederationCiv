@@ -24,7 +24,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "The United Tribes",
 		"uniques": ["Resting point for Influence with City-States is increased by [25]", "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-		"Gain [10] Influence with a [Military] gift to a City-State", "Allied City-States provide [Production] equal to [+10]% of what they produce for themselves <in [capital] cities>",	
+		"Gain [10] Influence with a [Military] gift to a City-State", "Allied City-States provide [Production] equal to [+10]% of what they produce for themselves <in [capital] cities>", "Cannot build [Settler] units",	
 		"Allied City-States provide [Food] equal to [+10]% of what they produce for themselves <in [capital] cities>", "City-State territory always counts as friendly territory", "[-50]% City-State Influence degradation"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
